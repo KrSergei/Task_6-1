@@ -1,11 +1,11 @@
 package My.Folder;
 
-class pyramid extends Shape {
+class Pyramid extends Shape {
     double heightPyramid;
     double sideA;
     double sideB;
 
-    public pyramid(double heightPyramid, double sideA, double sideB) {
+    public Pyramid(double heightPyramid, double sideA, double sideB) {
         this.heightPyramid = heightPyramid;
         this.sideA = sideA;
         this.sideB = sideB;

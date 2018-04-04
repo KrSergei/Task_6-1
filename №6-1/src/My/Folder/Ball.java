@@ -1,8 +1,8 @@
 package My.Folder;
 
-public class ball extends SolidOfRevolutionM {
+public class Ball extends SolidOfRevolutionM {
 
-    public ball(double radius) {
+    public Ball(double radius) {
         super(radius);
     }
 
