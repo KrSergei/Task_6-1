@@ -1,9 +1,9 @@
 package My.Folder;
 
-public class CilinderVolume extends SolidOfRevolutionM {
+public class cilinderVolume extends SolidOfRevolutionM {
     double heightCilinder;
 
-    public CilinderVolume(double radius, double heightCilinder) {
+    public cilinderVolume(double radius, double heightCilinder) {
         super(radius);
         this.heightCilinder = heightCilinder;
     }

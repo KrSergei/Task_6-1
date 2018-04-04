@@ -1,17 +1,17 @@
 package My.Folder;
 
-class Pyramid extends Shape {
+class pyramid extends Shape {
     double heightPyramid;
     double sideA;
     double sideB;
 
-    public Pyramid(double heightPyramid, double sideA, double sideB) {
+    public pyramid(double heightPyramid, double sideA, double sideB) {
         this.heightPyramid = heightPyramid;
         this.sideA = sideA;
         this.sideB = sideB;
     }
 
     public double getVolume() {
-        return  1 / 3 * ((sideA * sideB) * heightPyramid);
+        return (double) 1 / 3 * ((sideA * sideB) * heightPyramid);
     }
 }
