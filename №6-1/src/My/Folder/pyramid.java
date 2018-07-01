@@ -12,6 +12,6 @@ class Pyramid extends Shape {
     }
 
     public double getVolume() {
-        return  1 / 3 * ((sideA * sideB) * heightPyramid);
+        return (double) 1 / 3 * ((sideA * sideB) * heightPyramid);
     }
 }
